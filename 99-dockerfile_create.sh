@@ -46,3 +46,7 @@ echo "Toutes les images ont été construites avec succès."
 chmod +x -R /root/02-BDD_Backup/ restart.sh
 
 sudo docker-compose up -d
+
+echo "Vérifier que tous les dockers sont bien démarrés."
+
+docker ps -a

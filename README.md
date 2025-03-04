@@ -1,28 +1,20 @@
-# Mon Site Web déployer automatiquement avec Docker
+# Déploiement Automatique de Mon Site Web avec Docker
 
-### Système d"exploitation utilisé
+### Système d'Exploitation Utilisé
 
-Système d'exploitation testé et approuver avec mes scripts:
+Testé et approuvé avec:
 - Debian 12
 
-## Etape pour déployer mon site
+## Étapes pour Déployer le Site
 
-### 1. cloner mon dépôt
+### 1. Cloner le Dépôt
 
 ```bash
-git clone https://github.com/Pxlierne/SiteWeb.git
+git clone https://github.com/Pxlierne/SiteWeb.git && cd SiteWeb
 ```
 
-
-### 2. Mettre les droits d'exécution au fichier `99-dockerfile_create.sh`
-
-
-    ```bash
-    sudo chmod +x 99-dockerfile_create.sh
-    ```
-
-### 3. Executer le script 99-dockerfile_create.sh
+### 2. Ajouter les Droits d'Exécution au Script et exécuter le script
 
 ```bash
-./99-dockerfile_create.sh
+sudo chmod +x 99-dockerfile_create.sh && ./99-dockerfile_create.sh
 ```

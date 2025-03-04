@@ -1,15 +1,15 @@
 #!/bin/bash
 
 # Variables de configuration
-DB_USER="root"
-DB_PASSWORD="P@ssw0rd"  # Remplacez par votre mot de passe
-DB_NAME="edcorp_db"  # Nom de la base de données à restaurer
+DB_USER="root" # Utilisateur de la base de données
+DB_PASSWORD="P@ssw0rd" # Mot de passe de l'utilisateur de la base de données
+DB_NAME="edcorp_db" # Nom de la base de données
 BACKUP_FILE="edcorp_db-202412182106.sql"  # Chemin vers le fichier de sauvegarde
 
 # Vérifiez si le fichier existe avant d'essayer de restaurer
-if [ ! -f "$BACKUP_FILE" ]; then
-    echo "Le fichier de sauvegarde $BACKUP_FILE n'existe pas."
-    exit 1
+if [ ! -f "$BACKUP_FILE" ]; then 
+    echo "Le fichier de sauvegarde $BACKUP_FILE n'existe pas." 
+    exit 1 
 fi
 
 # Exécuter la restauration
