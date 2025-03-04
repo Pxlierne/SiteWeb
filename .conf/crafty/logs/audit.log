@@ -1,0 +1,2 @@
+{"level": "INFO", "time": "2025-01-11 16:12:31,870", "log_msg": "Logged in", "user_name": "admin", "user_id": 1, "server_id": null, "source_ip": "192.168.1.100"}
+{"level": "INFO", "time": "2025-01-11 16:12:52,653", "log_msg": "added user enzo (UID:3) with roles set()", "user_name": "admin", "user_id": 1, "server_id": null, "source_ip": "192.168.1.100"}

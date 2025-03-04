@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/sun.jpg');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+body::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #3339;
+    filter: blur(1px);
+}
+#game{
+    position: absolute;
+    width: 890px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+    height: 650px;
+    background: url('../images/area.jpg');
+    background-size: cover;
+    background-position: center 0px;
+    overflow: hidden;
+}
+.panel{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 225px;
+    border-radius: 7px;
+    height: 100px;
+    background: url('../images/pan.jpg');
+    background-size: cover;
+    z-index: 5;
+    transform: scale(.96);
+}
+.panel #sun_len{
+    position: absolute;
+    bottom: 4px;
+    width: 60px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 15px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: monospace;
+}
+.panel .el{
+    position: relative;
+    width: 134px;
+    margin-left: 85px;
+    height: 100%;
+    display: flex;
+    padding: 6px;
+}
+.panel .el .panelEl{
+    position: relative;
+    width: 80px;
+    margin: 3px;
+    height: 79px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.panelEl.sun{
+    background: url('../images/plantsun.jpg');
+    background-size: cover;
+}
+.panelEl.power{
+    background: url('../images/plantattack.jpg');
+    background-size: cover;
+}
+.panelEl.not_mony::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #0004;
+}
+.panelEl.coldown::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    /* height: 100%; */
+    z-index: 1;
+    background-color: #0006;
+    animation: coldown 10s linear forwards;
+}
+.panel .lpt.off{
+    background: url('../images/lapoff.jpg');
+    background-size: cover;
+}
+.panel .lpt{
+    position: absolute;
+    width: 80px;
+    height: 81px;
+    margin-left: 50px;
+    display: inline-block;
+    top: 1px;
+    right: -81px;
+    background: url('../images/lap.jpg');
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 5px;
+}
+@keyframes coldown{
+    0%{
+        height: 100%;
+    }
+    100%{
+        height: 0%;
+    }
+}
+.cursorGuideElem{
+    position: absolute;
+    width: 70px;
+    height: 90px;
+    z-index: 6;
+    pointer-events: none;
+    display: none;
+}
+.cursorGuideElem.sun{
+    display: block;
+    background: url('../images/su.png');
+    background-size: 65px;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cursorGuideElem.power{
+    display: block;
+    background: url('../images/attack.png');
+    background-size: 65px;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cursorGuideElem.lap{
+    display: block;
+    background: url('../images/lapcurs.png');
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.areas{
+    position: absolute;
+    width: 825px;
+    height: 570px;
+    bottom: 3px;
+    left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.area{
+    position: relative;
+    width: calc(100% / 9);
+    height: calc(100% / 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid; */
+}
+.areas.on .area:hover{
+    background-color: #fff3;
+}
+.sunPlant{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fff3;
+    background: url('../images/su.png');
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center 23px;
+    animation: sunPl 12s linear infinite;
+    animation-delay: 6s;
+}
+@keyframes sunPl{
+    0%,47%,52%,100%{
+        filter: brightness(1);
+    }
+    50%{
+        filter: brightness(2);
+    }
+}
+.AttackPlant{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fff3;
+    background: url('../images/attack.png');
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center 23px;
+}
+.plantWarning{
+    animation: warning .7s linear infinite;
+}
+@keyframes warning{
+    0%,100%{
+        filter: brightness(1);
+    }
+    50%{
+        filter: brightness(2);
+    }
+}
+.sunn{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 0;
+    background: url('../images/s.png');
+    background-size: cover;
+    cursor: pointer;
+    animation: sun 10s linear infinite;
+    z-index: 7;
+    transition: .6s;
+}
+.shoot{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    transition: .9s;
+    border-radius: 50%;
+    background: linear-gradient(145deg,#01fc5d,#1e6d35);
+    border: .137rem solid #0a7029;
+    box-shadow: 0px 60px 11px 0px rgba(0,0,0,0.5);
+}
+/* .plants{ */
+    /* border: 1px solid; */
+/* } */
+.zombie{
+    position: absolute;
+    width: 73px;
+    height: 130px;
+    /* border: 1px solid; */
+    transition: .1s;
+    background: url('../images/zombie.png');
+    background-size: cover;
+    animation: zombie 100s linear;
+    z-index: 5;
+    filter: brightness(1);
+}
+.zombie.stop{
+    animation-play-state: paused;
+}
+.zombie.war{
+    filter: brightness(150%);
+}
+@keyframes zombie{
+    0%{
+        left: 900px;
+    }
+    100%{
+        left: -100px;
+    }
+}
+
+@keyframes shootLefts{
+    100%{
+        left: 900px;
+    }
+}
+
+@keyframes sun{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.zombrange{
+    position: absolute;
+    width: 200px;
+    height: 32px;
+    right: 30px;
+    bottom: 10px;
+    background: url('../images/zombirLev.png');
+    background-position: center -2px;
+    background-size: cover;
+    z-index: 565;
+    border-radius: 10px;
+}
+.hhd{
+    position: absolute;
+    width: 13%;
+    height: 10px;
+    top: 10px;
+    right: 8px;
+    border-radius: 0px 2px 2px 0px;
+    /* bottom: 2px; */
+    transition: .3s;
+    background: rgb(53, 211, 53);
+}
+.hhd::before{
+    position: absolute;
+    content: '';
+    background: url('../images/zombhead.png');
+    left: -2px;
+    top: -10px;
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: cover;
+}
+.button{
+    position: absolute;
+    width: 300px;
+    height: 70px;
+    background: #556;
+    z-index: 1111;
+    border-radius: 19px 22px 17px 21px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.6em;
+    font-family: monospace;
+    border: 5px solid #0005;
+}

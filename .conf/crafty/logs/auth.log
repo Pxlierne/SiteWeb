@@ -1,0 +1,2 @@
+2025-01-11 16:12:31,813 - [AUTH] - INFO - User attempting to authenticate from 192.168.1.100
+2025-01-11 16:12:31,869 - [AUTH] - INFO - admin successfully authenticated and logged into panel from remote IP 192.168.1.100

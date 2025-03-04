@@ -1,0 +1,67 @@
+version: '3'
+
+services:
+  srv_pound: #port 8080
+    image: pascaldevink/pound:latest
+    container_name: srv_pound
+    restart: unless-stopped
+    ports:
+      - "80:8080"
+    volumes:
+      - ./.conf/pound.cfg:/etc/pound/pound.cfg
+    depends_on:
+      - srv_nginx-1
+      - srv_nginx-2
+
+  srv_nginx-1: #port 80
+    image: nginx_project:latest
+    container_name: srv_nginx-1
+    restart: unless-stopped
+    volumes:
+      - ./01-SiteWeb:/var/www/html
+      - ./.conf/default.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - srv_php
+
+  srv_nginx-2: #port 80
+    image: nginx_project:latest
+    container_name: srv_nginx-2
+    restart: unless-stopped
+    volumes:
+      - ./01-SiteWeb:/var/www/html
+      - ./.conf/default.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - srv_php
+
+  srv_php:
+    image: php_project:latest
+    container_name: srv_php
+    restart: unless-stopped
+    volumes:
+      - ./01-SiteWeb:/var/www/html
+
+  srv_adminer: #port 8080
+    image: adminer_project:latest
+    container_name: srv_adminer
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    depends_on:
+      - srv_mysql
+
+  srv_mysql: #port 3306
+    image: mysql_project:latest
+    container_name: srv_mysql
+    restart: unless-stopped
+#    ports:
+#      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: P@ssw0rd
+      MYSQL_DATABASE: pxlierne_db
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./02-BDD_Backup:/backup
+      - ./.conf/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+volumes:
+  mysql_data:

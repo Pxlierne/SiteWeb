@@ -1,0 +1,135 @@
+2025-01-11 16:05:14,995 - [Crafty] - INFO     - __main__ - ***** Crafty Controller Started *****
+2025-01-11 16:05:14,999 - [Crafty] - INFO     - app.classes.shared.migration - Starting migrations
+2025-01-11 16:05:15,017 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210813111015_init"
+2025-01-11 16:05:15,031 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210813111015_init"
+2025-01-11 16:05:15,039 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210819155737_permissions"
+2025-01-11 16:05:15,048 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210819155737_permissions"
+2025-01-11 16:05:15,052 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210822092240_crafty_permissions"
+2025-01-11 16:05:15,054 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210822092240_crafty_permissions"
+2025-01-11 16:05:15,063 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210822101530_delete_User_Servers"
+2025-01-11 16:05:15,064 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210822101530_delete_User_Servers"
+2025-01-11 16:05:15,066 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210824205501_permissions_limits_1"
+2025-01-11 16:05:15,082 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210824205501_permissions_limits_1"
+2025-01-11 16:05:15,084 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210915205501_backup_schedule"
+2025-01-11 16:05:15,088 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210915205501_backup_schedule"
+2025-01-11 16:05:15,096 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210915205501_crash"
+2025-01-11 16:05:15,099 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210915205501_crash"
+2025-01-11 16:05:15,101 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210915205501_cron_task"
+2025-01-11 16:05:15,104 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210915205501_cron_task"
+2025-01-11 16:05:15,105 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210915205501_first_run_"
+2025-01-11 16:05:15,109 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210915205501_first_run_"
+2025-01-11 16:05:15,110 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210915205501_one_time_task"
+2025-01-11 16:05:15,114 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210915205501_one_time_task"
+2025-01-11 16:05:15,115 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210915205501_server_type"
+2025-01-11 16:05:15,121 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210915205501_server_type"
+2025-01-11 16:05:15,125 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210915205501_user_email"
+2025-01-11 16:05:15,128 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210915205501_user_email"
+2025-01-11 16:05:15,130 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210915205501_users_log_path"
+2025-01-11 16:05:15,137 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210915205501_users_log_path"
+2025-01-11 16:05:15,141 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210915205501_waiting_start_1"
+2025-01-11 16:05:15,151 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210915205501_waiting_start_1"
+2025-01-11 16:05:15,154 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210915205501_waiting_start_1 copy"
+2025-01-11 16:05:15,158 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210915205501_waiting_start_1 copy"
+2025-01-11 16:05:15,165 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20210929205501_user_lang"
+2025-01-11 16:05:15,168 - [Crafty] - INFO     - app.classes.shared.migration - Done "20210929205501_user_lang"
+2025-01-11 16:05:15,170 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20211120221511_api_keys"
+2025-01-11 16:05:15,195 - [Crafty] - INFO     - app.classes.shared.migration - Done "20211120221511_api_keys"
+2025-01-11 16:05:15,208 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20211121233959_multi_api_keys"
+2025-01-11 16:05:15,210 - [Crafty] - INFO     - app.classes.shared.migration - Done "20211121233959_multi_api_keys"
+2025-01-11 16:05:15,217 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220223_ignored_exits"
+2025-01-11 16:05:15,228 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220223_ignored_exits"
+2025-01-11 16:05:15,235 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220223_schedule_reaction"
+2025-01-11 16:05:15,241 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220223_schedule_reaction"
+2025-01-11 16:05:15,247 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220226_server_order"
+2025-01-11 16:05:15,252 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220226_server_order"
+2025-01-11 16:05:15,255 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220226_server_order copy"
+2025-01-11 16:05:15,299 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220226_server_order copy"
+2025-01-11 16:05:15,304 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220227162446_backup_options"
+2025-01-11 16:05:15,309 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220227162446_backup_options"
+2025-01-11 16:05:15,314 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220302_compress_backups"
+2025-01-11 16:05:15,325 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220302_compress_backups"
+2025-01-11 16:05:15,339 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220303_downloading"
+2025-01-11 16:05:15,342 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220303_downloading"
+2025-01-11 16:05:15,344 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220312_support_log_status"
+2025-01-11 16:05:15,349 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220312_support_log_status"
+2025-01-11 16:05:15,357 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220618_crafty_api_secret"
+2025-01-11 16:05:15,360 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220618_crafty_api_secret"
+2025-01-11 16:05:15,364 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220620_backup_shutdown"
+2025-01-11 16:05:15,369 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220620_backup_shutdown"
+2025-01-11 16:05:15,374 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220804_schedule_next_run"
+2025-01-11 16:05:15,378 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220804_schedule_next_run"
+2025-01-11 16:05:15,382 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220805_schedule_rename_comment"
+2025-01-11 16:05:15,385 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220805_schedule_rename_comment"
+2025-01-11 16:05:15,389 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220819_role_manager"
+2025-01-11 16:05:15,398 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220819_role_manager"
+2025-01-11 16:05:15,408 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220819_user_manager"
+2025-01-11 16:05:15,412 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220819_user_manager"
+2025-01-11 16:05:15,416 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220820_quota"
+2025-01-11 16:05:15,422 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220820_quota"
+2025-01-11 16:05:15,445 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220820_user_crafty"
+2025-01-11 16:05:15,464 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220820_user_crafty"
+2025-01-11 16:05:15,474 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220821_shutdown_timeout"
+2025-01-11 16:05:15,479 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220821_shutdown_timeout"
+2025-01-11 16:05:15,485 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220912_user_pfp"
+2025-01-11 16:05:15,502 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220912_user_pfp"
+2025-01-11 16:05:15,518 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220926_user_theme"
+2025-01-11 16:05:15,522 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220926_user_theme"
+2025-01-11 16:05:15,527 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20221109_login_photo"
+2025-01-11 16:05:15,530 - [Crafty] - INFO     - app.classes.shared.migration - Done "20221109_login_photo"
+2025-01-11 16:05:15,543 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20230111_adding_login_opacity"
+2025-01-11 16:05:15,554 - [Crafty] - INFO     - app.classes.shared.migration - Done "20230111_adding_login_opacity"
+2025-01-11 16:05:15,559 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20230119_command_drop"
+2025-01-11 16:05:15,562 - [Crafty] - INFO     - app.classes.shared.migration - Done "20230119_command_drop"
+2025-01-11 16:05:15,567 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20230120_backup_command"
+2025-01-11 16:05:15,577 - [Crafty] - INFO     - app.classes.shared.migration - Done "20230120_backup_command"
+2025-01-11 16:05:15,581 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20230126_master_server"
+2025-01-11 16:05:15,584 - [Crafty] - INFO     - app.classes.shared.migration - Done "20230126_master_server"
+2025-01-11 16:05:15,596 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20230129_secrets_shh"
+2025-01-11 16:05:15,605 - [Crafty] - INFO     - app.classes.shared.migration - Done "20230129_secrets_shh"
+2025-01-11 16:05:15,607 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20230603_webhooks"
+2025-01-11 16:05:15,669 - [Crafty] - INFO     - app.classes.shared.migration - Done "20230603_webhooks"
+2025-01-11 16:05:15,680 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20230901_user_notif"
+2025-01-11 16:05:15,687 - [Crafty] - INFO     - app.classes.shared.migration - Done "20230901_user_notif"
+2025-01-11 16:05:15,689 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20231229_player_count"
+2025-01-11 16:05:15,696 - [Crafty] - INFO     - app.classes.shared.migration - Done "20231229_player_count"
+2025-01-11 16:05:15,713 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20240216_rework_servers_uuid"
+2025-01-11 16:05:15,727 - [Crafty] - INFO     - app.classes.shared.migration - Done "20240216_rework_servers_uuid"
+2025-01-11 16:05:15,748 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20240217_rework_servers_uuid_part2"
+2025-01-11 16:05:15,765 - [Crafty] - INFO     - app.classes.shared.migration - Done "20240217_rework_servers_uuid_part2"
+2025-01-11 16:05:15,769 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20240308_multi-backup"
+2025-01-11 16:05:15,807 - [Crafty] - INFO     - app.classes.shared.migration - Done "20240308_multi-backup"
+2025-01-11 16:05:15,814 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20240310_fixing_rework_servers_uuid"
+2025-01-11 16:05:15,838 - [Crafty] - INFO     - app.classes.shared.migration - Done "20240310_fixing_rework_servers_uuid"
+2025-01-11 16:05:15,842 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20240317_apikey_full_access"
+2025-01-11 16:05:15,846 - [Crafty] - INFO     - app.classes.shared.migration - Done "20240317_apikey_full_access"
+2025-01-11 16:05:15,849 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20240420_audit_log_drop"
+2025-01-11 16:05:15,851 - [Crafty] - INFO     - app.classes.shared.migration - Done "20240420_audit_log_drop"
+2025-01-11 16:05:15,853 - [Crafty] - INFO     - app.classes.shared.main_models - Fresh Install Detected - Creating Default Settings
+2025-01-11 16:05:16,639 - [Crafty] - INFO     - __main__ - Initializing all servers defined
+2025-01-11 16:05:16,641 - [Crafty] - INFO     - app.classes.shared.helpers - SSL Cert File is set to: /crafty/app/config/web/certs/commander.cert.pem
+2025-01-11 16:05:16,641 - [Crafty] - INFO     - app.classes.shared.helpers - SSL Key File is set to: /crafty/app/config/web/certs/commander.key.pem
+2025-01-11 16:05:16,641 - [Crafty] - INFO     - app.classes.shared.helpers - Generating a self signed SSL
+2025-01-11 16:05:16,641 - [Crafty] - INFO     - app.classes.shared.helpers - Generating a key pair. This might take a moment.
+2025-01-11 16:05:17,471 - [Crafty] - INFO     - app.classes.web.tornado_handler - Starting Web Server on ports https:8443
+2025-01-11 16:05:17,480 - [Crafty] - INFO     - app.classes.web.tornado_handler - https://172.23.0.5:8443 is up and ready for connections.
+2025-01-11 16:05:19,183 - [Crafty] - ERROR    - app.classes.shared.helpers - /crafty/app/config/bigbucket.json does not exist
+2025-01-11 16:05:19,183 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Checking Big Bucket status
+2025-01-11 16:05:19,345 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Big bucket is alive and responding as expected
+2025-01-11 16:05:19,346 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Automatic cache refresh initiated due to old cache.
+2025-01-11 16:05:19,346 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Checking Big Bucket status
+2025-01-11 16:05:19,468 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Big bucket is alive and responding as expected
+2025-01-11 16:05:19,613 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Cache file successfully refreshed manually.
+2025-01-11 16:05:20,655 - [Crafty] - INFO     - __main__ - Checking Internet. This may take a minute.
+2025-01-11 16:05:22,659 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Manual bucket cache refresh initiated.
+2025-01-11 16:05:22,660 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Checking Big Bucket status
+2025-01-11 16:05:22,811 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Big bucket is alive and responding as expected
+2025-01-11 16:05:22,968 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Cache file successfully refreshed manually.
+2025-01-11 16:05:22,971 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Manual refresh completed.
+2025-01-11 16:05:23,222 - [Crafty] - INFO     - __main__ - Execution Mode: Non-interactive (e.g. 'python main.py')
+2025-01-11 16:05:23,222 - [Crafty] - INFO     - __main__ - Application path: '/crafty'
+2025-01-11 16:05:23,509 - [Crafty] - INFO     - __main__ - Removing old temp dirs
+2025-01-11 16:12:31,866 - [Crafty] - INFO     - app.classes.web.public_handler - User: 1 Logged in from IP: 192.168.1.100
+2025-01-11 16:12:31,870 - [Crafty] - INFO     - audit_log - Logged in
+2025-01-11 16:12:37,288 - [Crafty] - ERROR    - app.classes.shared.translation - Translation File Error: word humanized_index does not exist on page language for lang humanized_index
+2025-01-11 16:12:37,289 - [Crafty] - ERROR    - app.classes.shared.translation - Translation File Error: page language does not exist for lang en_EN
+2025-01-11 16:12:52,653 - [Crafty] - INFO     - audit_log - added user enzo (UID:3) with roles set()

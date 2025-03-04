@@ -1,0 +1,2 @@
+192.168.1.100 - - [11/Jan/2025:16:37:13 +0000] "GET /favicon.ico HTTP/1.1" 200 1039 "http://pxlierne.fr/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+192.168.1.100 - - [11/Jan/2025:16:38:10 +0000] "GET / HTTP/1.1" 301 166 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"

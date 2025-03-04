@@ -1,0 +1,143 @@
+2025-01-11 16:05:16,633 - [Schedules] - INFO - Scheduler started
+2025-01-11 16:05:16,634 - [Schedules] - INFO - Scheduler started
+2025-01-11 16:05:16,635 - [Schedules] - INFO - Reload from DB called. Current enabled schedules: 
+2025-01-11 16:05:18,655 - [Schedules] - INFO - Stats collection frequency set to 30 seconds
+2025-01-11 16:05:19,173 - [Schedules] - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-01-11 16:05:19,173 - [Schedules] - INFO - Launching Scheduler Thread...
+2025-01-11 16:05:19,174 - [Schedules] - INFO - Launching command thread...
+2025-01-11 16:05:19,175 - [Schedules] - INFO - Launching log watcher...
+2025-01-11 16:05:19,176 - [Schedules] - INFO - Added job "Stats.record_stats" to job store "default"
+2025-01-11 16:05:19,176 - [Schedules] - INFO - Scheduler started
+2025-01-11 16:05:19,177 - [Schedules] - INFO - Checking for Crafty updates...
+2025-01-11 16:05:19,178 - [Schedules] - INFO - Launching realtime thread...
+2025-01-11 16:05:19,180 - [Schedules] - INFO - Added job "TasksManager.check_for_old_logs" to job store "default"
+2025-01-11 16:05:19,181 - [Schedules] - INFO - Refreshing big bucket cache on start
+2025-01-11 16:05:19,491 - [Schedules] - INFO - No updates found! You are on the most up to date Crafty version.
+2025-01-11 16:05:19,492 - [Schedules] - INFO - Refreshing Gravatar PFPs...
+2025-01-11 16:05:19,613 - [Schedules] - INFO - Scheduling big bucket cache refresh service every 12 hours
+2025-01-11 16:05:19,613 - [Schedules] - INFO - Added job "BigBucket.refresh_cache" to job store "default"
+2025-01-11 16:05:19,950 - [Schedules] - INFO - Added job "TasksManager.check_for_updates" to job store "default"
+2025-01-11 16:05:19,950 - [Schedules] - INFO - Added job "Controller.write_auth_tracker" to job store "default"
+2025-01-11 16:05:19,950 - [Schedules] - INFO - Loaded schedules. Current enabled schedules: 
+2025-01-11 16:05:19,950 - [Schedules] - INFO - JOB: Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:05:49 UTC)
+2025-01-11 16:05:19,951 - [Schedules] - INFO - JOB: Controller.write_auth_tracker (trigger: interval[0:05:00], next run at: 2025-01-11 16:10:19 UTC)
+2025-01-11 16:05:19,951 - [Schedules] - INFO - JOB: TasksManager.check_for_old_logs (trigger: interval[6:00:00], next run at: 2025-01-11 22:05:19 UTC)
+2025-01-11 16:05:19,951 - [Schedules] - INFO - JOB: BigBucket.refresh_cache (trigger: interval[12:00:00], next run at: 2025-01-12 04:05:19 UTC)
+2025-01-11 16:05:19,951 - [Schedules] - INFO - JOB: TasksManager.check_for_updates (trigger: interval[12:00:00], next run at: 2025-01-12 04:05:19 UTC)
+2025-01-11 16:05:49,180 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:06:19 UTC)" (scheduled at 2025-01-11 16:05:49.173450+00:00)
+2025-01-11 16:05:49,707 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:06:19 UTC)" executed successfully
+2025-01-11 16:05:49,708 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:06:19,176 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:06:49 UTC)" (scheduled at 2025-01-11 16:06:19.173450+00:00)
+2025-01-11 16:06:19,683 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:06:49 UTC)" executed successfully
+2025-01-11 16:06:19,683 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:06:49,175 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:07:19 UTC)" (scheduled at 2025-01-11 16:06:49.173450+00:00)
+2025-01-11 16:06:49,691 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:07:19 UTC)" executed successfully
+2025-01-11 16:06:49,692 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:07:19,174 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:07:49 UTC)" (scheduled at 2025-01-11 16:07:19.173450+00:00)
+2025-01-11 16:07:19,685 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:07:49 UTC)" executed successfully
+2025-01-11 16:07:19,686 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:07:49,173 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:08:19 UTC)" (scheduled at 2025-01-11 16:07:49.173450+00:00)
+2025-01-11 16:07:49,684 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:08:19 UTC)" executed successfully
+2025-01-11 16:07:49,685 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:08:19,174 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:08:49 UTC)" (scheduled at 2025-01-11 16:08:19.173450+00:00)
+2025-01-11 16:08:19,687 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:08:49 UTC)" executed successfully
+2025-01-11 16:08:19,687 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:08:49,174 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:09:19 UTC)" (scheduled at 2025-01-11 16:08:49.173450+00:00)
+2025-01-11 16:08:49,679 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:09:19 UTC)" executed successfully
+2025-01-11 16:08:49,679 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:09:19,175 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:09:49 UTC)" (scheduled at 2025-01-11 16:09:19.173450+00:00)
+2025-01-11 16:09:19,688 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:09:49 UTC)" executed successfully
+2025-01-11 16:09:19,689 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:09:49,174 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:10:19 UTC)" (scheduled at 2025-01-11 16:09:49.173450+00:00)
+2025-01-11 16:09:49,677 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:10:19 UTC)" executed successfully
+2025-01-11 16:09:49,677 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:10:19,173 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:10:49 UTC)" (scheduled at 2025-01-11 16:10:19.173450+00:00)
+2025-01-11 16:10:19,682 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:10:49 UTC)" executed successfully
+2025-01-11 16:10:19,682 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:10:19,951 - [Schedules] - INFO - Running job "Controller.write_auth_tracker (trigger: interval[0:05:00], next run at: 2025-01-11 16:15:19 UTC)" (scheduled at 2025-01-11 16:10:19.950390+00:00)
+2025-01-11 16:10:19,953 - [Schedules] - INFO - Job "Controller.write_auth_tracker (trigger: interval[0:05:00], next run at: 2025-01-11 16:15:19 UTC)" executed successfully
+2025-01-11 16:10:19,953 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:10:49,175 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:11:19 UTC)" (scheduled at 2025-01-11 16:10:49.173450+00:00)
+2025-01-11 16:10:49,688 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:11:19 UTC)" executed successfully
+2025-01-11 16:10:49,689 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:11:19,175 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:11:49 UTC)" (scheduled at 2025-01-11 16:11:19.173450+00:00)
+2025-01-11 16:11:19,689 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:11:49 UTC)" executed successfully
+2025-01-11 16:11:19,689 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:11:49,175 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:12:19 UTC)" (scheduled at 2025-01-11 16:11:49.173450+00:00)
+2025-01-11 16:11:49,688 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:12:19 UTC)" executed successfully
+2025-01-11 16:11:49,688 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:12:19,175 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:12:49 UTC)" (scheduled at 2025-01-11 16:12:19.173450+00:00)
+2025-01-11 16:12:19,688 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:12:49 UTC)" executed successfully
+2025-01-11 16:12:19,688 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:12:49,174 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:13:19 UTC)" (scheduled at 2025-01-11 16:12:49.173450+00:00)
+2025-01-11 16:12:49,687 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:13:19 UTC)" executed successfully
+2025-01-11 16:12:49,688 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:13:19,175 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:13:49 UTC)" (scheduled at 2025-01-11 16:13:19.173450+00:00)
+2025-01-11 16:13:19,682 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:13:49 UTC)" executed successfully
+2025-01-11 16:13:19,682 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:13:49,175 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:14:19 UTC)" (scheduled at 2025-01-11 16:13:49.173450+00:00)
+2025-01-11 16:13:49,687 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:14:19 UTC)" executed successfully
+2025-01-11 16:13:49,687 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:14:19,174 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:14:49 UTC)" (scheduled at 2025-01-11 16:14:19.173450+00:00)
+2025-01-11 16:14:19,678 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:14:49 UTC)" executed successfully
+2025-01-11 16:14:19,678 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:14:49,174 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:15:19 UTC)" (scheduled at 2025-01-11 16:14:49.173450+00:00)
+2025-01-11 16:14:49,680 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:15:19 UTC)" executed successfully
+2025-01-11 16:14:49,680 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:15:19,174 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:15:49 UTC)" (scheduled at 2025-01-11 16:15:19.173450+00:00)
+2025-01-11 16:15:19,678 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:15:49 UTC)" executed successfully
+2025-01-11 16:15:19,678 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:15:19,951 - [Schedules] - INFO - Running job "Controller.write_auth_tracker (trigger: interval[0:05:00], next run at: 2025-01-11 16:20:19 UTC)" (scheduled at 2025-01-11 16:15:19.950390+00:00)
+2025-01-11 16:15:19,951 - [Schedules] - INFO - Job "Controller.write_auth_tracker (trigger: interval[0:05:00], next run at: 2025-01-11 16:20:19 UTC)" executed successfully
+2025-01-11 16:15:19,951 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:15:49,173 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:16:19 UTC)" (scheduled at 2025-01-11 16:15:49.173450+00:00)
+2025-01-11 16:15:49,677 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:16:19 UTC)" executed successfully
+2025-01-11 16:15:49,677 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:16:19,175 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:16:49 UTC)" (scheduled at 2025-01-11 16:16:19.173450+00:00)
+2025-01-11 16:16:19,680 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:16:49 UTC)" executed successfully
+2025-01-11 16:16:19,681 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:16:49,175 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:17:19 UTC)" (scheduled at 2025-01-11 16:16:49.173450+00:00)
+2025-01-11 16:16:49,700 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:17:19 UTC)" executed successfully
+2025-01-11 16:16:49,700 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:17:19,174 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:17:49 UTC)" (scheduled at 2025-01-11 16:17:19.173450+00:00)
+2025-01-11 16:17:19,688 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:17:49 UTC)" executed successfully
+2025-01-11 16:17:19,689 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:17:49,173 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:18:19 UTC)" (scheduled at 2025-01-11 16:17:49.173450+00:00)
+2025-01-11 16:17:49,686 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:18:19 UTC)" executed successfully
+2025-01-11 16:17:49,687 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:18:19,175 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:18:49 UTC)" (scheduled at 2025-01-11 16:18:19.173450+00:00)
+2025-01-11 16:18:19,680 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:18:49 UTC)" executed successfully
+2025-01-11 16:18:19,680 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:18:49,174 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:19:19 UTC)" (scheduled at 2025-01-11 16:18:49.173450+00:00)
+2025-01-11 16:18:49,677 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:19:19 UTC)" executed successfully
+2025-01-11 16:18:49,677 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:19:19,174 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:19:49 UTC)" (scheduled at 2025-01-11 16:19:19.173450+00:00)
+2025-01-11 16:19:19,683 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:19:49 UTC)" executed successfully
+2025-01-11 16:19:19,684 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:19:49,174 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:20:19 UTC)" (scheduled at 2025-01-11 16:19:49.173450+00:00)
+2025-01-11 16:19:49,687 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:20:19 UTC)" executed successfully
+2025-01-11 16:19:49,687 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:20:19,174 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:20:49 UTC)" (scheduled at 2025-01-11 16:20:19.173450+00:00)
+2025-01-11 16:20:19,680 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:20:49 UTC)" executed successfully
+2025-01-11 16:20:19,680 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:20:19,956 - [Schedules] - INFO - Running job "Controller.write_auth_tracker (trigger: interval[0:05:00], next run at: 2025-01-11 16:25:19 UTC)" (scheduled at 2025-01-11 16:20:19.950390+00:00)
+2025-01-11 16:20:19,957 - [Schedules] - INFO - Job "Controller.write_auth_tracker (trigger: interval[0:05:00], next run at: 2025-01-11 16:25:19 UTC)" executed successfully
+2025-01-11 16:20:19,957 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:20:49,175 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:21:19 UTC)" (scheduled at 2025-01-11 16:20:49.173450+00:00)
+2025-01-11 16:20:49,682 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:21:19 UTC)" executed successfully
+2025-01-11 16:20:49,682 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:21:19,173 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:21:49 UTC)" (scheduled at 2025-01-11 16:21:19.173450+00:00)
+2025-01-11 16:21:19,677 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:21:49 UTC)" executed successfully
+2025-01-11 16:21:19,677 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:21:49,174 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:22:19 UTC)" (scheduled at 2025-01-11 16:21:49.173450+00:00)
+2025-01-11 16:21:49,688 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:22:19 UTC)" executed successfully
+2025-01-11 16:21:49,689 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:22:19,174 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:22:49 UTC)" (scheduled at 2025-01-11 16:22:19.173450+00:00)
+2025-01-11 16:22:19,687 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:22:49 UTC)" executed successfully
+2025-01-11 16:22:19,688 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:22:49,175 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:23:19 UTC)" (scheduled at 2025-01-11 16:22:49.173450+00:00)
+2025-01-11 16:22:49,688 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:23:19 UTC)" executed successfully
+2025-01-11 16:22:49,688 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-01-11 16:23:19,175 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:23:49 UTC)" (scheduled at 2025-01-11 16:23:19.173450+00:00)
+2025-01-11 16:23:19,688 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-01-11 16:23:49 UTC)" executed successfully
+2025-01-11 16:23:19,689 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.

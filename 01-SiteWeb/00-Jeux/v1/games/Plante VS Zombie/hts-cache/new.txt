@@ -1,0 +1,4 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+19:20:29	1026/1026	---MCZ	200	added ('OK')	text/html	date:Tue,%2004%20Mar%202025%2018:20:28%20GMT	https://www.gameslol.net/data/pvz/fr/	C:/HTTrack_WebSite_Clone/Plante%20VS%20Zombie/www.gameslol.net/data/pvz/fr/index-2.html	(from )
+19:20:29	39/39	U-----	200	untouched ('OK')	text/plain	date:Sun,%2014%20Mar%202021%2017:42:22%20GMT	https://www.gameslol.net/robots.txt		(from )
+19:20:29	1026/1026	U-----	200	untouched ('OK')	text/html	date:Tue,%2004%20Mar%202025%2016:45:34%20GMT	https://www.gameslol.net/data/pvz/fr/index.php	C:/HTTrack_WebSite_Clone/Plante%20VS%20Zombie/www.gameslol.net/data/pvz/fr/index.html	(from )
